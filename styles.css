@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+
+body{
+
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+}
+
+
+
+.form-container{
+
+
+    width:350px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+
+
+}
+
+
+
+h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+
+
+input{
+
+
+    width:100%;
+
+    padding:10px;
+
+    margin-top:5px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+
+}
+
+
+
+.password-box{
+
+
+    display:flex;
+
+}
+
+
+
+.password-box input{
+
+
+    flex:1;
+
+}
+
+
+
+#togglePassword{
+
+
+    margin-left:5px;
+
+    padding:10px;
+
+    border:none;
+
+    background:#333;
+
+    color:white;
+
+    cursor:pointer;
+
+
+}
+
+
+
+.submit-btn{
+
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:12px;
+
+    background:#667eea;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+
+}
+
+
+
+.submit-btn:hover{
+
+    background:#5563c1;
+
+}
+
+
+
+#message{
+
+
+    display:none;
+
+    padding:10px;
+
+    margin-bottom:15px;
+
+    border-radius:5px;
+
+    text-align:center;
+
+}
+
+
+
+.error{
+
+    display:block !important;
+
+    background:#ffdddd;
+
+    color:red;
+
+}
+
+
+
+.success{
+
+
+    display:block !important;
+
+    background:#ddffdd;
+
+    color:green;
+
+
+}
